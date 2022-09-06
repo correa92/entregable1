@@ -27,8 +27,8 @@ document.body.onload = function () {
   } //fin class Pelicula
 
   const formatosDisponibles = ["2D", "3D", "4D", "Monster"];
-  const generosDisponibles = ["acción","suspenso","terror","comedia","romantica","infantil"];
-  const idiomasDisponibles = ["Inglés", "Latino","Portugues"];
+  const generosDisponibles = ["Acción","Suspenso","Terror","Comedia","Romantica","Infantil"];
+  const idiomasDisponibles = ["Inglés subtitulado", "Latino"];
   let salasSinUso = [1,2,4,5,7,9,6];
 
   let peli1 = new Pelicula("IRON MAN",["3D","4D"],"acción","02/10/2022","latino",3);
